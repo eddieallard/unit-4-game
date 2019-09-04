@@ -1,0 +1,75 @@
+html, body {
+    background-image: url("../images/../images/Backdrop00.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkslategrey;
+
+}
+
+#scoreboard {
+    text-align: right;
+    margin-right: 125px;
+    margin-top: -34px; 
+}
+
+#random-button {
+    text-align: center;
+    position: fixed;
+    margin: -170px 530px 400px 520px;
+    
+}
+
+.jumbotron {
+    background-image: url("../images/bejeweledbackground.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 625px;
+    margin-top: 30px;
+  }
+
+.container {
+    margin-top: 30px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.imgdiv {
+    display: inline-block;
+    margin-top: 185px;
+    margin-left: 50px;
+}
+
+  @media screen and (min-width: 980px) {
+    .container {
+        /* width: 750px; */
+        height: auto;
+        position: relative;
+        border: 1px solid #cccccc;
+        overflow: auto;
+    }
+      }
+@media screen and (min-width: 768px) {
+   section {
+        /* width: 650px; */
+        height: auto;
+        position: relative;
+        border: 1px solid #cccccc;
+        overflow: auto;
+    }
+}
+@media screen and (min-width: 640px) {
+    .container {
+        /* width: 400px; */
+        height: auto;
+        position: relative;
+        border: 1px solid #cccccc;
+        overflow: auto;
+    }
+}
