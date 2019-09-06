@@ -18,14 +18,16 @@
 
 
   <section class="container">
-
-
     <div class="col-md-12 jumbotron">
       <!--Scoreboard below this line-->
-        <div id="scoreboard">
-            <p>Wins:<span id="wins-text"></span></p>
-            <p>Losses:<span id="losses-text"></span></p>
-          </div>
+      <div class="score-wrapper clearfix">
+        <div class="scoreboard">
+          <p>Wins:<span id="wins-text"></span></p>
+          <p>Losses:<span id="losses-text"></span></p>
+        </div>
+      </div>
+
+
 
       <!--Game buttons below this line-->
       <div class="wrapper">
@@ -36,17 +38,15 @@
           <img id="guitargem" src="../unit-4-game/assets/images/guitar.png" width="75px" height="75px" alt="Guitar Jem">
         </div>
       </div>
-      <!--Random button generator under this line-->
-        <button id="random-button" class="btn btn-primary btn-lg"><h1><span id="butt2">?</span></h1></button>
 
+      <!--Random & Total score generator under this line-->
+      <button id="random-button" class="btn btn-primary btn-lg">
+        <h1><span id="butt2">?</span></h1>
+      </button>
 
-      <!--Total score below this line-->  
-
-
-      <!--Conditions of the game below this line-->  
-
-      <!--Game rules under this line-->
-
+      <button id="total-score" class="btn btn-success btn-lg">
+        <h1><span id="butt1">0</span></h1>
+      </button>
 
 
   </section>

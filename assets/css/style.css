@@ -5,23 +5,30 @@ html, body {
 }
 
 p {
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: darkslategrey;
-
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: -19px;
+    margin-bottom: auto;
+    margin-right: 50px;
 }
 
-#scoreboard {
+#butt2 {
+    font-size: 30px;
+}
+
+
+.score-wrapper {
     text-align: right;
     margin-right: 125px;
-    margin-top: -34px; 
+    margin-top: 0 auto;
 }
 
 #random-button {
     text-align: center;
-    position: fixed;
-    margin: -170px 530px 400px 520px;
-    
+    position: absolute;
+    margin: -170px 540px 400px 520px;
 }
 
 .jumbotron {
@@ -30,6 +37,7 @@ p {
     background-repeat: no-repeat;
     height: 625px;
     margin-top: 30px;
+    overflow-y: hidden;
   }
 
 .container {
@@ -44,6 +52,16 @@ p {
     display: inline-block;
     margin-top: 185px;
     margin-left: 50px;
+}
+
+#total-score {
+    position: absolute; 
+    visibility: visible; 
+    right: 110px; 
+    top: 500px; 
+    width: 110px;
+    height: 90px;
+    z-index: 200; 
 }
 
   @media screen and (min-width: 980px) {
