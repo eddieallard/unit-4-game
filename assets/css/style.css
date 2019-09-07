@@ -9,9 +9,7 @@ p {
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    margin-top: -19px;
-    margin-bottom: auto;
-    margin-right: 50px;
+    margin: 0 50px 0 0;
 }
 
 #butt2 {
@@ -50,7 +48,7 @@ p {
 
 .imgdiv {
     display: inline-block;
-    margin-top: 185px;
+    margin-top: 200px;
     margin-left: 50px;
 }
 
